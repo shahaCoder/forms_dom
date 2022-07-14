@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.ex-form{
+    font-size: 52px;
+    text-align: center;
+}
+
+
+
+.header-spans{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 546px;
+}
+
+input{
+    width: 259px;
+    height: 59px;
+    outline: none;
+    padding: 20px 12px;
+    font-size: 18px;
+    display: block;
+}
+
+.item{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.left{
+    margin-bottom: 50px;
+   
+}
+
+.inp-box-left{
+    margin-right: 75px;
+}
+
+.save{
+    width: 277px;
+    height: 59px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 12px;
+    background-color: #4200ff;
+    border-radius: 4px;
+    border: 1px solid;
+    overflow: unset;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.active{
+    border: 2px solid blue;
+}
+
+.inactive{
+    border: 1px solid;
+}
+
+.redBorder{
+    border: 2px solid red;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    /* display: block; */
+}
+
+.text{
+    color: blue;
+}
+
+.smth{
+    color: red;
+    font-size: 14px;
+}
+
+.left{
+    position: relative;
+}
+
+.error-img{
+    top: 40px;
+    left: 265px;
+    position: absolute;
+    display: none;
+}
+
+.surnm{
+    margin-bottom: 30px;
+}
+
+.mom{
+    margin-top: -16px;
+}
+
+.pap{
+    margin-top: -20px;
+}
+
+.new-active{
+    background-color: red;
+    border: 1px solidЗP;
+}
